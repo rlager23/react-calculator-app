@@ -21,11 +21,11 @@ body{
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 20%);
+    color: white;
 }
 #keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
     padding: 25px;
 }
 button{
@@ -45,12 +45,13 @@ button:hover{
 button:active{
     background-color: hsl(0, 0%, 50%);
 }
-.operator-btn:hover{
-    background-color: hsl(35, 100%, 65%);
-}
 .operator-btn{
     background-color: hsl(35, 100%, 55%);
 }
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+
 .operator-btn:active{
-    background-color: hsl(35, 200%, 75%);
+    background-color: hsl(35, 100%, 75%);
 }
